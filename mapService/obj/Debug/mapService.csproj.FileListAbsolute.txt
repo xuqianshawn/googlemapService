@@ -10,9 +10,9 @@ C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\roslyn\System.Reflect
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\roslyn\vbc.exe
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\roslyn\VBCSCompiler.exe
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\roslyn\VBCSCompiler.exe.config
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\TestLogin.dll.config
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\TestLogin.dll
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\TestLogin.pdb
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\MapService.dll.config
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\MapService.dll
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\MapService.pdb
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Antlr3.Runtime.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\EntityFramework.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\EntityFramework.SqlServer.dll
@@ -29,6 +29,8 @@ C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Securi
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.OAuth.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Web.Infrastructure.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Newtonsoft.Json.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Owin.dll
@@ -41,6 +43,8 @@ C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\System.Web.WebPages.d
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\System.Web.WebPages.Razor.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\WebGrease.dll
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\System.Web.Helpers.xml
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\System.Web.Mvc.xml
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\System.Web.Optimization.xml
@@ -64,6 +68,5 @@ C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Securi
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.Google.xml
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\obj\Debug\MapService.csprojResolveAssemblyReference.cache
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\obj\Debug\TestLogin.dll
-C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\obj\Debug\TestLogin.pdb
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\obj\Debug\MapService.dll
+C:\Users\Shawn\Documents\Git\GoogleJsASPMVC\Mapservice\obj\Debug\MapService.pdb
