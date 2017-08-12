@@ -1,8 +1,8 @@
 ﻿using Microsoft.Owin;
 using Owin;
 
-[assembly: OwinStartupAttribute(typeof(mapService.Startup))]
-namespace mapService
+[assembly: OwinStartupAttribute(typeof(TestLogin.Startup))]
+namespace TestLogin
 {
     public partial class Startup
     {

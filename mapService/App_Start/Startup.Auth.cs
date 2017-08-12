@@ -5,9 +5,9 @@ using Microsoft.Owin;
 using Microsoft.Owin.Security.Cookies;
 using Microsoft.Owin.Security.Google;
 using Owin;
-using mapService.Models;
+using TestLogin.Models;
 
-namespace mapService
+namespace TestLogin
 {
     public partial class Startup
     {

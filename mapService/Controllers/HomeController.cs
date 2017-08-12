@@ -5,15 +5,13 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace mapService.Controllers
+namespace TestLogin.Controllers
 {
     public class HomeController : Controller
     {
         public ActionResult Index()
-        {
-            string googleAPIKey = ConfigurationManager.AppSettings["googleMapAPIKey"];
-            ViewBag.APIKey = googleAPIKey;
-            return View(ViewBag);
+        {           
+            return View();
         }
 
         public ActionResult About()
