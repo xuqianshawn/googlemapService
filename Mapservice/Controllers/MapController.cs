@@ -6,6 +6,8 @@ using System.Web;
 using System.Web.Mvc;
 using TestLogin.Models;
 using DataAccessLayer;
+using DataAccessLayer.Utility;
+
 namespace TestLogin.Controllers
 {
     public class MapController : Controller
@@ -16,6 +18,20 @@ namespace TestLogin.Controllers
             string googleAPIKey = ConfigurationManager.AppSettings["googleMapAPIKey"];
             ViewBag.APIKey = googleAPIKey;
             return View(ViewBag);
+        }
+        public string GetLocations()
+        {
+            using (var da = new UserLocationDA())
+            {
+                return da.GetUserLocations().ToJSON();
+            }
+        }
+        public string SearchLocations(string id)
+        {
+            using (var da = new UserLocationDA())
+            {
+                return da.GetUserLocations(id).ToJSON();
+            }
         }
         [HttpPost]
         public ActionResult Save(UserComment data)
