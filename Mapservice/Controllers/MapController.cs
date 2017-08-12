@@ -20,6 +20,14 @@ namespace TestLogin.Controllers
         [HttpPost]
         public ActionResult Save(UserComment data)
         {
+            if (string.IsNullOrEmpty(User.Identity.Name))
+            {
+                return Json(new
+                {
+                    status = "fail",
+                    result = "notloggedin"
+                });
+            }
             data.name= User.Identity.Name;
             using (var da = new UserLocationDA())
             {

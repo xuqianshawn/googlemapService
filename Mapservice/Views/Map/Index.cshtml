@@ -37,8 +37,17 @@
                 data: { name: '', comment: txtComment, lat: sessionStorage.getItem('mylat'), lng: sessionStorage.getItem('mylong') },
                 success: function (data)
                 {
-                    $('#input_Map').val('');
-                    alert('success saved!');
+                    if (data.status == 'success') {
+                        $('#input_Map').val('');
+                        alert('success saved!');
+                    }
+                    else if (data.result == "notloggedin")
+                    {
+                        var r = confirm('Please log in first!');
+                        if (r == true) {
+                            self.location = "/Account/Login";
+                        }
+                    }
                 },
                 dataType:"JSON"
             }
