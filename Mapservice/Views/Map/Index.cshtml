@@ -28,9 +28,9 @@
 <body>
     <div id="map"></div>
     <script>
-        function onSaveLocationClicked() {
+        function onSearch() {
             var txtSearch = $('#input_Search').val();
-            self.location = "/Map/SearchLocations/" + txtSearch;
+            self.location = "/Map/Index/" + txtSearch;
         }
 
         function onSaveLocationClicked() {
@@ -43,8 +43,8 @@
                 success: function (data)
                 {
                     if (data.status == 'success') {
-                        $('#input_Map').val('');
                         alert('success saved!');
+                        self.location = "/Map/Index/"
                     }
                     else if (data.result == "notloggedin")
                     {
@@ -59,8 +59,8 @@
             );
         }
       function initMap() {
-          $.get('/Map/GetLocations', function (data) {
-              var jsonLocation = JSON.parse(data);
+        
+          var jsonLocation = JSON.parse('@Html.Raw(@Model.Locations)');
               var locations = [];
               var tempname = '';
               for (var loc in jsonLocation) {
@@ -113,7 +113,7 @@
                   // Browser doesn't support Geolocation
                   handleLocationError(false, infoWindow, map.getCenter());
               }
-          });
+        
     }
 
     function handleLocationError(browserHasGeolocation, infoWindow, pos) {

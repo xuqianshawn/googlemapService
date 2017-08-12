@@ -13,10 +13,18 @@ namespace TestLogin.Controllers
     public class MapController : Controller
     {
         // GET: Map
-        public ActionResult Index()
+        public ActionResult Index(string id)
         {
             string googleAPIKey = ConfigurationManager.AppSettings["googleMapAPIKey"];
             ViewBag.APIKey = googleAPIKey;
+            if (string.IsNullOrEmpty(id))
+            {
+                ViewBag.Locations = GetLocations();
+            }
+            else
+            {
+                ViewBag.Locations = SearchLocations(id);
+            }
             return View(ViewBag);
         }
         public string GetLocations()
