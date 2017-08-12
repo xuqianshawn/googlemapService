@@ -20,7 +20,7 @@ namespace DataAccessLayer
         {
             var list = GetUserLocations();
 
-            return list.Where(x => (x.name.Contains(term) || x.comment.Contains(term))).ToList();
+            return list.Where(x => (x.name.ToLower().Contains(term.ToLower()) || x.comment.ToLower().Contains(term.ToLower()))).ToList();
         }
         public List<UserComment> GetUserLocations()
         {
